@@ -12,5 +12,7 @@
         android:layout_gravity="center"
         android:onClick="sayHello"
         android:text="Say Hello" />
+    <!-- the onClick means that the sayHello method will be called -->
+
 
 </LinearLayout>
