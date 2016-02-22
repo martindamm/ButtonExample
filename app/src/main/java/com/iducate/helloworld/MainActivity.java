@@ -12,21 +12,22 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        System.out.println("martin");
+        Person p1 = new Person("Martin Damm",32);
+        p1.printPerson();
     }
     
     public void sayHello(View view) {
 
         Dialog dialog = new Dialog(this);
-        
+
         dialog.setTitle("Greetings");
-        
+
         TextView textView = new TextView(this);
         textView.setText("Hello World");
         textView.setPadding(20, 20, 20, 20);
-        
+
         dialog.setContentView(textView);
-        
+
         dialog.show();
     }
     
