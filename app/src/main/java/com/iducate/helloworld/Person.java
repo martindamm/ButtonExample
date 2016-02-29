@@ -15,8 +15,9 @@ public class Person {
         this.name = name;
         this.age = age;
     }
+    public Person(){}
 
-
+    /*
     // Method containing an if-else statement.
     public boolean isOld() {
         if(age >= 40){
@@ -25,17 +26,20 @@ public class Person {
             return false;
         }
     }
+    */
 
     // Print the Person details
     public void printPerson() {
         System.out.println("Name:" + name);
         System.out.println("Age:" + age);
 
+        /*
         // prints the isOld() method
         if(isOld()) {
             System.out.println("Person is old");
         } else {
             System.out.println("Person is young");
         }
+        */
     }
 }
